@@ -47,6 +47,7 @@
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
+    padding: .5rem 0;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
@@ -54,8 +55,6 @@
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.5);
-    border-bottom: 0.25rem solid transparent;
-
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -65,14 +64,12 @@
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
-    
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
   }
   #mainNav.navbar-shrink .nav-link {
     color: #161616;
-    border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
     color: #64a19d;
