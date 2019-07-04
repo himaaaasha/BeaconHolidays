@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #3573E2;
+  border: 1px solid #3573E2;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,15 +72,14 @@
     color: #161616;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #3573E2;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #3573E2;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #3573E2;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
   }
 }
 
@@ -102,7 +101,7 @@
   font-family: 'Varela Round';
   font-size: 2.5rem;
   line-height: 2.5rem;
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.4rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 255), rgba(255, 255, 255, 250));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -115,8 +114,9 @@
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: 0.4rem;
   }
 }
 
@@ -126,9 +126,9 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
+    font-size: 5rem;
     line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    letter-spacing: 0.4rem;
   }
   .masthead h2 {
     max-width: 30rem;
@@ -165,9 +165,14 @@
 }
 
 .about-section {
-  padding-top: 10rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+.hl {
+  border-top : 6px solid white;
+  padding-bottom : 10px;
+  width: 5rem;
 }
 
 .about-section p {
